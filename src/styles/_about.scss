@@ -1,0 +1,52 @@
+.about-container {
+  background-color: #c8f9e6;
+  text-align: center;
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+  color: #333;
+  font-size: 2rem;
+  text-decoration: underline;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.about-content {
+  color: #333;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  display: inline-block;
+  padding: 1rem;
+}
+
+p {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.3rem 0.9rem;
+  background-color: rgb(14, 85, 73);
+  color: white;
+  cursor: pointer;
+  border-radius: 3rem;
+  margin-top: 1rem;
+}
+button:hover {
+  background-color: rgb(30, 130, 114); /* 在悬停时改变背景颜色 */
+}
